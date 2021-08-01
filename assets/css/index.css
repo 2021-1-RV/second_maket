@@ -5,7 +5,13 @@
 }
 
 body{
-    background-color: green;
+    background-color:darkgray;
+}
+
+.all_site{
+    background-color:  rgb(123, 243, 3);
+    margin: 0 auto; /*Центрирование*/
+    max-width: 1440px;
 }
 
 .container{
@@ -14,9 +20,9 @@ body{
     
 }
 
-.flex_container{
+.title_container{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 20px;
 }
@@ -28,7 +34,7 @@ body{
 
 .nav_color{
     background-color: rgb(123, 243, 3);
-    height: 75px;
+    height: 55px;
     text-align: center;
     border: 10px solid  rgb(173, 255, 91);
 }
@@ -49,7 +55,19 @@ body{
 
 h1{
     font-family: 'Dancing Script', cursive;
-    font-size: 50px;
+    font-size: 80px;
+    text-shadow: 0 0 10px;
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    padding:20px;
+}
+
+.empty{
+    width: 400px;
+    height: 200px;
 }
 
 
@@ -71,10 +89,10 @@ h1{
 }
 
 .welcome_title{
-    height: 500px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    padding: 20px;
     border-right: 10px solid  rgb(173, 255, 91);
 }
 
@@ -98,9 +116,10 @@ h1{
 
 
 .footer{
+    font-size: 26px;
     background-color: chartreuse;
     margin: 0 auto; /*Центрирование*/
     max-width: 1440px;
-    padding: 10px;
+    padding: 20px;
     border: 10px solid  rgb(173, 255, 91);
 }
