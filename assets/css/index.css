@@ -21,15 +21,20 @@ body{
     padding: 20px;
 }
 
-h1{
-    font-family: 'Dancing Script', cursive;
-    font-size: 50px;
+.logo{
+    width: 200px;
+    height: 200px;
 }
 
+.nav_color{
+    background-color: rgb(123, 243, 3);
+    height: 75px;
+    text-align: center;
+    border: 10px solid  rgb(173, 255, 91);
+}
 
 .nav_li{
     display: inline-block;
-    background-color: chartreuse;
     margin-bottom: 20px ;
 }
 
@@ -41,9 +46,18 @@ h1{
     padding: 50px;
 }
 
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+
 .welcom_all{
     margin: 0 auto; /*Центрирование*/
     max-width: 1440px;
+    border-top: 10px solid silver ;
+    border-bottom: 10px solid silver ;
 }
 
 .welcome_container{
@@ -52,9 +66,8 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
     max-width: 1440px;
-    border: 5px solid silver;
+    border: 10px solid  rgb(173, 255, 91);
 }
 
 .welcome_title{
@@ -62,7 +75,7 @@ h1{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    border: 5px solid silver;
+    border-right: 10px solid  rgb(173, 255, 91);
 }
 
 .welcome_info{
@@ -76,7 +89,6 @@ h1{
 .bird_container{
     background-color:chartreuse;
     text-align: center;
-    border: 5px solid silver;
 }
 
 .bird_photo{
@@ -89,4 +101,6 @@ h1{
     background-color: chartreuse;
     margin: 0 auto; /*Центрирование*/
     max-width: 1440px;
+    padding: 10px;
+    border: 10px solid  rgb(173, 255, 91);
 }
